@@ -6,5 +6,6 @@
 </head>
 <body>
 <a href="http://htmlpreview.github.io/?https://github.com/hyypan/myplayer/blob/master/index.html">demo</a>
+<a href="https://hyypan.github.io/myplayer/index.html">demo</a>
 </body>
 </html>
