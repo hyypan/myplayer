@@ -5,6 +5,6 @@
     <title>Title</title>
 </head>
 <body>
-<a href="http://stanko.github.io/myplayer"></a>
+<a href="http://stanko.github.io/myplayer">demo</a>
 </body>
 </html>
