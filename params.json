@@ -1,6 +1,6 @@
 {
   "name": "Myplayer",
   "tagline": "a video player",
-  "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n<a href=\"http://stanko.github.io/myplayer\">demo</a>\r\n</body>\r\n</html>",
+  "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n<a href=\"http://htmlpreview.github.io/?https://github.com/hyypan/myplayer/blob/master/index.html\">demo</a>\r\n<a href=\"https://hyypan.github.io/myplayer/blob/master/index.html\">demo</a>\r\n</body>\r\n</html>",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
