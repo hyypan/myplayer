@@ -41,10 +41,10 @@ function control(event){
 
 //音量设置
 window.onload=function volume(){
-   var getwidth=window.screen.width;
-    document.getElementById("myplayer").setAttribute("width",getwidth);
+   //var getwidth=window.screen.width;
+    //document.getElementById("myplayer").setAttribute("width",getwidth);
     var video=document.getElementById("myvideo");
-    video.setAttribute("width",getwidth);
+   // video.setAttribute("width",getwidth);
 
 
     var pt=document.getElementById("myplayer");
