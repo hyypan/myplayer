@@ -5,11 +5,12 @@
     <title>myplayer</title>
     <script src="/myplayer/js/index.js"></script>
     <link href="/myplayer/css/index.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-<div class="player" id="myplayer">
-    <video id="myvideo" class="vde"  ontimeupdate="control(this)">
+<div class="player" id="myplayer" width="547">
+    <video id="myvideo" class="vde"  ontimeupdate="control(this)" poster="/myplayer/images/ps.jpg" width="545" -webkit-playsinline webkit-playsinline>
         <source src="/myplayer/css/video.mp4" type="video/mp4"/>
           HTML5 Video is required for this example.
         <a href="/myplayer/css/video.mp4">Download the video</a>file
@@ -17,7 +18,7 @@
     <div class="group">
        <div class="groupdiv">
            <div id="quick" class="qk"><<</div>
-           <div class="plyprogress" id="proid"><div id="playprogress" class="progress"></div></div>
+           <div class="plyprogress" id="proid" ><div id="playprogress" class="progress"></div></div>
            <div id="quickt" class="qkt">>></div>
 
        </div>
