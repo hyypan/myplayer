@@ -5,11 +5,11 @@ function videoplay(){
     var button=document.getElementById("videoplay")
     if(video.paused){
         video.play();
-        button.firstElementChild.setAttribute("src",'/myplayer/images/puse.jpg');
+        button.firstElementChild.setAttribute("src",'images/puse.jpg');
     }else
     {
         video.pause();
-        button.firstElementChild.setAttribute("src",'/myplayer/images/play.jpg');
+        button.firstElementChild.setAttribute("src",'images/play.jpg');
     }
 }
 //从头开始播放
@@ -62,10 +62,10 @@ window.onload=function volume(){
     document.getElementById("imgid").addEventListener("click", function (evt) {//静音设置
         if (video.muted) {
             video.muted = false;
-            evt.target.setAttribute('src','/myplayer/images/vol.jpg')
+            evt.target.setAttribute('src','images/vol.jpg')
         } else {
             video.muted = true;
-            evt.target.setAttribute('src','/myplayer/images/voloff.jpg')
+            evt.target.setAttribute('src','images/voloff.jpg')
         }
     }, false);
     document.getElementById("proid").addEventListener("click",function(e){      //捕获进度条

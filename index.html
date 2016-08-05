@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>myplayer</title>
-    <script src="/myplayer/js/index.js"></script>
-    <link href="/myplayer/css/index.css" type="text/css" rel="stylesheet">
+    <script src="js/index.js"></script>
+    <link href="css/index.css" type="text/css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
 <div class="player" id="myplayer" width="547">
-    <video id="myvideo" class="vde"  ontimeupdate="control(this)" poster="/myplayer/images/ps.jpg" width="545" -webkit-playsinline webkit-playsinline>
-        <source src="/myplayer/css/video.mp4" type="video/mp4"/>
+    <video id="myvideo" class="vde"  ontimeupdate="control(this)" poster="images/ps.jpg" width="545" -webkit-playsinline webkit-playsinline>
+        <source src="css/video.mp4" type="video/mp4"/>
           HTML5 Video is required for this example.
-        <a href="/myplayer/css/video.mp4">Download the video</a>file
+        <a href="css/video.mp4">Download the video</a>file
     </video>
     <div class="group">
        <div class="groupdiv">
@@ -24,12 +24,12 @@
        </div>
         <div class="groupbtn">
             <div id="playtime" class="pltime"></div>
-            <div  class="bt1" id="restart"  onclick="restart();"><img src="/myplayer/images/replay.png"></div>
-            <div class="bt2" id="retreat"  onclick="skip(-10);"><img src="/myplayer/images/pre.jpg"></div>
-            <div class="bt3" id="videoplay" onclick="videoplay();"><img src="/myplayer/images/play.jpg"></div>
-            <div  class="bt4" id="forward"  onclick="skip(+10);"><img src="/myplayer/images/next.jpg"></div>
+            <div  class="bt1" id="restart"  onclick="restart();"><img src="images/replay.png"></div>
+            <div class="bt2" id="retreat"  onclick="skip(-10);"><img src="images/pre.jpg"></div>
+            <div class="bt3" id="videoplay" onclick="videoplay();"><img src="images/play.jpg"></div>
+            <div  class="bt4" id="forward"  onclick="skip(+10);"><img src="images/next.jpg"></div>
             <div class="groupvol">
-                <span id="spanid"><img id="imgid" src="/myplayer/images/vol.jpg" ></span>
+                <span id="spanid"><img id="imgid" src="images/vol.jpg" ></span>
                 <div  class="bt5" id="volsub">-</div>
                 <div class="vol"><div id="vollenth" class="vollen"></div></div>
                 <div id="voladd" class="voladd">+</div>
