@@ -35,17 +35,16 @@ function control(event){
     var video=document.getElementById("myvideo");
     var percent=ctime/video.duration;
     var progress=document.getElementById("playprogress");
-    var pt=document.getElementById("myplayer");
-    progress.style.width=percent*500+"px";
+    var pt=document.getElementById("proid");
+    progress.style.width=percent*(pt.offsetWidth)+"px";
 }
 
 //音量设置
 window.onload=function volume(){
-   //var getwidth=window.screen.width;
+   var getwidth=window.screen.width;
     //document.getElementById("myplayer").setAttribute("width",getwidth);
     var video=document.getElementById("myvideo");
-   // video.setAttribute("width",getwidth);
-
+    //video.setAttribute("width",getwidth);
 
     var pt=document.getElementById("myplayer");
 
@@ -71,7 +70,8 @@ window.onload=function volume(){
     document.getElementById("proid").addEventListener("click",function(e){      //捕获进度条
         var e=e||event
         var length= e.pageX-pt.offsetLeft-20;
-        var res=length/500;
+
+        var res=length/(pt.offsetWidth);
         var settime=(video.duration)*res;
        video.currentTime=settime;
     },false)
