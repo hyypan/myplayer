@@ -149,7 +149,10 @@ body{
     margin-top: 4px;
 }
 
-@media screen and(max-width:415px) {
+@media screen and (max-width:436px) {
+    body {
+        background-color:lightblue;
+    }
     .pltime {
         margin-top: 9px;
         margin-left: 14%;
@@ -157,7 +160,7 @@ body{
     .bt1{
         margin-left: 30%;
     }
-    .groupvol, .bt1, .bt2, .bt3, .bt4 {
+    .groupvol, .bt2, .bt3, .bt4 {
 
         margin-left: 14px;
 
