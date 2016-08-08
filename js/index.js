@@ -41,6 +41,13 @@ function control(event){
 
 //音量设置
 window.onload=function volume(){
+	  var myVideo = document.querySelector('video');
+    myVideo.addEventListener("contextmenu", function (e) { e.preventDefault(); e.stopPropagation(); }, false);
+
+    // hide the controls if they're visible
+    if (myVideo.hasAttribute("controls")) {
+        myVideo.removeAttribute("controls")
+    }
    var getwidth=window.screen.width;
     //document.getElementById("myplayer").setAttribute("width",getwidth);
     var video=document.getElementById("myvideo");
